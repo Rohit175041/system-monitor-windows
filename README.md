@@ -1,3 +1,5 @@
+file structure:
+```
 system-monitor-windows/
 │
 ├── cmd/
@@ -68,5 +70,7 @@ collector → logger → channel → writer → disk
 
 // compile command
 // go build -ldflags="-H=windowsgui" -o system-monitor.exe ./cmd/agent  
+
+```
 
 
