@@ -1,0 +1,15 @@
+{
+  "log_interval_sec": 1,
+  "tray_refresh_sec": 2,
+
+  "json_log_file": "logs/system_metrics.log",
+  "csv_log_file": "logs/system_metrics.csv",
+
+  "log_max_size_mb": 500,
+  "log_max_backups": 5,
+
+  "battery_alert_percent": 20,
+  "cpu_alert_percent": 90,
+
+  "http_port": 8080
+}
