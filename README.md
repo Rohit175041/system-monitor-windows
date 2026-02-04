@@ -67,6 +67,6 @@ Architecture:
 collector → logger → channel → writer → disk
 
 // compile command
-<!--  go build -ldflags="-H=windowsgui" -o system-monitor.exe ./cmd/agent  -->
+// go build -ldflags="-H=windowsgui" -o system-monitor.exe ./cmd/agent  
 
 
